@@ -1,0 +1,19 @@
+{
+  "name": "lidar-publisher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "forever start index.js",
+    "stop": "forever start index.js",
+    "build": "npm install"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.4.2",
+    "forever": "^0.15.2",
+    "neato-lidar": "^0.1.0"
+  }
+}
