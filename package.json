@@ -14,6 +14,7 @@
   "dependencies": {
     "amqplib": "^0.4.2",
     "forever": "^0.15.2",
-    "neato-lidar": "^0.1.0"
+    "neato-lidar": "^0.1.0",
+    "serialport": "^4.0.1"
   }
 }
