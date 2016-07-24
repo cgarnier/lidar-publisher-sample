@@ -35,9 +35,7 @@ amqp.connect(Config.amqp, (err, conn) => {
       data = new Uint8Array([ 0xFA ].concat(data.slice(0, 21)))
       try {
         let lp = new LidarPacket(data)
-        lp.measures.forEach((m) => {
-          ch.publish(ex, '', new Buffer(JSON.stringify(lp)))
-        })
+        ch.publish(ex, '', new Buffer(JSON.stringify(lp)))
       } catch (e) {
         console.error('Error while parsing packet: ' + e.message)
       }
