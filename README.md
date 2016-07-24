@@ -4,7 +4,7 @@ Read data from serial, decode it with `neato-lidar` and publish it on a RabbitMQ
 
 ## Install
 
-  * `git clone ...`
+  * `git clone https://github.com/cgarnier/lidar-publisher-sample.git`
   * npm install
   
 ## Config
