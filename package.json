@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "forever start index.js",
     "stop": "forever start index.js",
-    "build": "npm install"
+    "build": "npm install",
+    "lint": "eslint config.js index.js"
   },
   "author": "",
   "license": "ISC",
